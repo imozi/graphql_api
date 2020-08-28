@@ -1,1 +1,1 @@
-# graphql_api
+# graphql_server

@@ -1,0 +1,12 @@
+#import "./users/types.graphql"
+
+type Query {
+  Users: [User!]!
+  User(id: ID!): User!
+}
+
+type Mutation {
+  addUser(user: UserInput!): User
+  updateUser(id: ID!, user: updateUserInput!): User
+  removeUser(id: ID!): User
+}

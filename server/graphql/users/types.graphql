@@ -4,7 +4,7 @@ type User {
   password: String!
 }
 
-input UserInput {
+input singUserInput {
   email: String!
   password: String!
 }

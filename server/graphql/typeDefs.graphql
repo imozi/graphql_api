@@ -6,7 +6,9 @@ type Query {
 }
 
 type Mutation {
-  addUser(user: UserInput!): User
+  singUp(user: singUserInput!): User
+  singIn(user: singUserInput!): User
+  singOut: User
   updateUser(id: ID!, user: updateUserInput!): User
   removeUser(id: ID!): User
 }
